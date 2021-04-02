@@ -22,7 +22,7 @@ def play_game():
     print('The word contains', len(word), 'letters.')
     print(len(word) * '*')
     while guessed == False and tries > 0:
-        print('You have ' + str(tries) + ' tries')
+        print('You have ' + str(tries) + ' lives')
         guess = input('Please enter one letter or the full word.').lower()
         #1 - user inputs a letter
         if len(guess) == 1:
